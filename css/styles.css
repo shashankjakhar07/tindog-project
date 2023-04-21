@@ -1,0 +1,147 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: grey;
+}
+.coloured-section{
+    background-color: rgb(240, 77, 77);
+    color: white;
+}
+.white-section{
+    background-color:white;
+}
+
+/* title */
+#title{
+     text-align: left;
+}
+.section-heading{
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.title-heading{
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+.title-img{
+    width: 300px;
+    height: 550px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* media query for title  */
+@media (max-width:1200px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* navbar */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+    font-size: 1.2rem;
+}
+.row{
+    padding-top: 30px;
+}
+
+/* features */
+#features{
+    position: relative;
+}
+.col-lg-4{
+    padding: 50px 100px;
+}
+.icon{
+    color:#EF8172;
+}
+.icon :hover{
+    color:rgb(240, 77, 77);
+}
+.feature-title{
+    font-weight: 800;
+}
+
+/* btns */
+.dwnld-btn{
+    margin:5% 3% 5% 0;
+}
+
+/* testimonials */
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+}
+.carousel-item{
+    padding: 10% 15%;
+}
+.testimonial-text{
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+/* press */
+#press{
+    padding-bottom: 30px;
+}
+.press-logo{
+    width: 15%;
+    margin: 0 20px 30px 20px;
+}
+
+/* pricing */
+#pricing{
+    padding-top: 5%;
+}
+.prices{
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.dog-name{
+    font-weight: 800;
+}
+
+/* call to action */
+#cta{
+    padding: 100px 250px;
+    font-size: rem;
+}
+.cta-btn{
+    margin: 40px 12px 0;
+}
+
+/* footer */
+#footer{
+    padding: 200px 0 50px 0px;
+}
+.footer-icons{
+    margin: 10px;
+}
+.footer-text{
+    margin-top: 20px;
+}
